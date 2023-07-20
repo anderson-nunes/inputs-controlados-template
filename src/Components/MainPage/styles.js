@@ -8,6 +8,10 @@ export const MainContainer = styled.main`
     align-items: center;
     justify-content: center;
     gap: 64px;
+
+    button {
+    padding: 6px;
+    }
 `
 
 export const Form = styled.form`
@@ -18,5 +22,5 @@ export const Form = styled.form`
 
 export const Input = styled.input`
     width: 100%;
-    padding: 8px;
+    padding: 10px;
 `
